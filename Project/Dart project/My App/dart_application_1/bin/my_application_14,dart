@@ -1,0 +1,73 @@
+
+
+void main(List<String> arguments) {
+
+//if for and spread operators
+
+
+String name = "shahrukh";
+List<String>courses=[if(name == "shahrukh")"dart"else"java"];
+print(courses);
+
+//by using for loop
+List<String>list1 = ["mul","kra","isl"];
+List<String>list2 = ["lhr","mur"];
+
+for(var element in list2 ){
+  list1.add(element);
+}
+print(list1);
+
+
+// print in list
+List<String>list3=["ame","mul","ger"];
+List<String>list4=["afr","mal",
+for(var element in list3) element
+];
+print(list4);
+
+//using spread 
+
+Map map1 = {
+"name":"mahnoor",
+"education" : "bscs",
+};
+Map map2 = {
+"gender":"female",
+"working" : "software engineer", ...map1
+};
+
+
+
+
+
+
+
+
+
+
+
+}
+   
+   
+
+
+
+  
+  
+  
+
+    
+
+
+
+ 
+ 
+  
+ 
+ 
+ 
+ 
+
+
+
